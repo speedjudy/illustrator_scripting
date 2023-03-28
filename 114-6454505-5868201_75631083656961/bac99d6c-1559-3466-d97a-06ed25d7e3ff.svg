@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="3200" height="3200" viewBox="0 0 400 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.2.0</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 201 191.5)"  >
+<rect style="stroke: rgb(231,118,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-opacity: 0; fill-rule: nonzero; opacity: 1; visibility: hidden;"  x="-182" y="-137.5" rx="0" ry="0" width="364" height="275" />
+</g>
+<g clip-path="url(#CLIPPATH_55)"  >
+<g transform="matrix(0.4573472 0 0 0.4573472 193.8224954 97.0759421)"  >
+<clipPath id="CLIPPATH_55" >
+	<rect transform="matrix(1 0 0 1 200 191.5)" x="-183.5" y="-139" rx="0" ry="0" width="367" height="278" />
+</clipPath>
+	<image style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  xlink:href="6b7717cb-86c8-4fdd-a5a4-3cabc1121726.png" x="-180" y="-92" width="360" height="184"></image>
+</g>
+</g>
+<g clip-path="url(#CLIPPATH_56)"  >
+<g transform="matrix(0.34863281 0 0 0.34863281 271.1015625 270.8984375)"  >
+<clipPath id="CLIPPATH_56" >
+	<rect transform="matrix(1 0 0 1 200 190)" x="-183.5" y="-137.5" rx="0" ry="0" width="367" height="275" />
+</clipPath>
+	<image style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  xlink:href="65a6c37b-c592-49f3-baa2-b164ed7e73dc.png" x="-256" y="-256" width="512" height="512"></image>
+</g>
+</g>
+<g clip-path="url(#CLIPPATH_57)"  >
+<g transform="matrix(0.08284186 0 0 0.08284186 353.84960938 174.74804688)"  >
+<clipPath id="CLIPPATH_57" >
+	<rect transform="matrix(1 0 0 1 200 190.5)" x="-183.5" y="-139" rx="0" ry="0" width="367" height="278" />
+</clipPath>
+	<image style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  xlink:href="a72a3859-22d2-44ea-844e-1905b06727c0.jpg" x="-306" y="-306" width="612" height="612"></image>
+</g>
+</g>
+<g style="" clip-path="url(#CLIPPATH_58)"  >
+<g transform="matrix(0.28551257 0 0 0.28551257 186.11826482 218.93410336)"  >
+<clipPath id="CLIPPATH_58" >
+	<rect transform="matrix(1 0 0 1 200 189)" x="-182.5" y="-137.5" rx="0" ry="0" width="365" height="275" />
+</clipPath>
+		<text xml:space="preserve" font-family="Roboto" font-size="244.6850393700787" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-546.29997193" y="-83.50121654" >StoryWalk</tspan></text>
+</g>
+</g>
+<g style="" clip-path="url(#CLIPPATH_59)"  >
+<g transform="matrix(0.12204815 0 0 0.12204815 163.13605571 231.34340193)"  >
+<clipPath id="CLIPPATH_59" >
+	<rect transform="matrix(1 0 0 1 200.5 191)" x="-182" y="-137.5" rx="0" ry="0" width="364" height="275" />
+</clipPath>
+		<text xml:space="preserve" font-family="Roboto" font-size="244.6850393700787" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-1010.99843904" y="76.86535827" >@Crossroads Park</tspan></text>
+</g>
+</g>
+</svg>

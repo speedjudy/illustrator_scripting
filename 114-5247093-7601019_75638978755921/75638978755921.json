@@ -1,0 +1,421 @@
+{
+  "orderId" : "114-5247093-7601019",
+  "orderItemId" : "75638978755921",
+  "legacyOrderItemId" : null,
+  "merchantId" : "A1CIC4I1BRMOQY",
+  "marketplaceId" : "ATVPDKIKX0DER",
+  "asin" : "B0BCP337TV",
+  "title" : "Two Pack Custom + Personalized 18x24\" Horizontal Yard Sign (Outdoor, Weatherproof Corrugated Plastic) Metal Stake Included, by Legit Fast Printing",
+  "quantity" : 1,
+  "customizationData" : {
+    "type" : "PageContainerCustomization",
+    "children" : [ {
+      "type" : "PreviewContainerCustomization",
+      "name" : "Surface 1",
+      "label" : "Surface 1",
+      "children" : [ {
+        "type" : "FlatContainerCustomization",
+        "children" : [ {
+          "type" : "PlacementContainerCustomization",
+          "name" : "Image 1",
+          "label" : "Image 1",
+          "children" : [ {
+            "type" : "ImageCustomization",
+            "name" : "",
+            "label" : "Image 1"
+          } ],
+          "dimension" : {
+            "width" : 367,
+            "height" : 278
+          },
+          "position" : {
+            "x" : 16,
+            "y" : 52
+          }
+        }, {
+          "type" : "PlacementContainerCustomization",
+          "name" : "Image 2",
+          "label" : "Image 2",
+          "children" : [ {
+            "type" : "ImageCustomization",
+            "name" : "",
+            "label" : "Image 2"
+          } ],
+          "dimension" : {
+            "width" : 367,
+            "height" : 275
+          },
+          "position" : {
+            "x" : 16,
+            "y" : 52
+          }
+        }, {
+          "type" : "PlacementContainerCustomization",
+          "name" : "Image 3",
+          "label" : "Image 3",
+          "children" : [ {
+            "type" : "ImageCustomization",
+            "name" : "",
+            "label" : "Image 3"
+          } ],
+          "dimension" : {
+            "width" : 367,
+            "height" : 278
+          },
+          "position" : {
+            "x" : 16,
+            "y" : 51
+          }
+        }, {
+          "type" : "PlacementContainerCustomization",
+          "name" : "Image 4",
+          "label" : "Image 4",
+          "children" : [ {
+            "type" : "ImageCustomization",
+            "name" : "",
+            "label" : "Image 4"
+          } ],
+          "dimension" : {
+            "width" : 368,
+            "height" : 276
+          },
+          "position" : {
+            "x" : 16,
+            "y" : 50
+          }
+        }, {
+          "type" : "PlacementContainerCustomization",
+          "name" : "Image 5",
+          "label" : "Image 5",
+          "children" : [ {
+            "type" : "ImageCustomization",
+            "name" : "",
+            "label" : "Image 5"
+          } ],
+          "dimension" : {
+            "width" : 367,
+            "height" : 277
+          },
+          "position" : {
+            "x" : 17,
+            "y" : 50
+          }
+        }, {
+          "type" : "ContainerCustomization",
+          "name" : "Text 1",
+          "label" : "Text 1",
+          "children" : [ {
+            "type" : "FontCustomization",
+            "name" : "",
+            "label" : "Text 1",
+            "fontSelection" : {
+              "family" : "Roboto"
+            }
+          }, {
+            "type" : "ColorCustomization",
+            "name" : "",
+            "label" : "Text Colors",
+            "colorSelection" : {
+              "name" : "Black",
+              "value" : "#000000",
+              "colorModel" : "rgb"
+            }
+          }, {
+            "type" : "ContainerCustomization",
+            "children" : [ {
+              "type" : "PlacementContainerCustomization",
+              "name" : "Text Input 1",
+              "label" : "Text Input 1",
+              "children" : [ {
+                "type" : "TextCustomization",
+                "name" : "",
+                "label" : "Text 1",
+                "inputValue" : "ATTENTION \nStay at top of driveway.\nStay in vehicle. "
+              } ],
+              "dimension" : {
+                "width" : 365,
+                "height" : 275
+              },
+              "position" : {
+                "x" : 17,
+                "y" : 51
+              },
+              "buyerPlacement" : {
+                "position" : {
+                  "x" : 37.689962779434666,
+                  "y" : 51.00000000000001
+                },
+                "dimension" : {
+                  "width" : 2640.411931818182,
+                  "height" : 963.4790909090907
+                },
+                "scale" : {
+                  "scaleX" : 0.1271433111111615,
+                  "scaleY" : 0.12714331111116148
+                },
+                "angleOfRotation" : 0.5231116815371878
+              }
+            }, {
+              "type" : "PlacementContainerCustomization",
+              "name" : "Text Input 2",
+              "label" : "Text Input 2",
+              "children" : [ {
+                "type" : "TextCustomization",
+                "name" : "",
+                "label" : "Text 2",
+                "inputValue" : "Call or text for availability. \n8434460502"
+              } ],
+              "dimension" : {
+                "width" : 364,
+                "height" : 275
+              },
+              "position" : {
+                "x" : 18,
+                "y" : 53
+              },
+              "buyerPlacement" : {
+                "position" : {
+                  "x" : 20.518632655723934,
+                  "y" : 174.32809952626047
+                },
+                "dimension" : {
+                  "width" : 2991.405140269887,
+                  "height" : 626.8418181818181
+                },
+                "scale" : {
+                  "scaleX" : 0.1201787198016647,
+                  "scaleY" : 0.12017871980166467
+                },
+                "angleOfRotation" : 0.5801066780557846
+              }
+            }, {
+              "type" : "PlacementContainerCustomization",
+              "name" : "Text Input 3",
+              "label" : "Text Input 3",
+              "children" : [ {
+                "type" : "TextCustomization",
+                "name" : "",
+                "label" : "Text 3",
+                "inputValue" : "Will respond asap. \nThank you."
+              } ],
+              "dimension" : {
+                "width" : 366,
+                "height" : 274
+              },
+              "position" : {
+                "x" : 14,
+                "y" : 52
+              },
+              "buyerPlacement" : {
+                "position" : {
+                  "x" : 55.49846374832535,
+                  "y" : 246.16219376475104
+                },
+                "dimension" : {
+                  "width" : 2151.277263042355,
+                  "height" : 624.5623933884297
+                },
+                "scale" : {
+                  "scaleX" : 0.1258216168649776,
+                  "scaleY" : 0.12582161686497756
+                },
+                "angleOfRotation" : 0.17717851099658324
+              }
+            }, {
+              "type" : "PlacementContainerCustomization",
+              "name" : "Text Input 4",
+              "label" : "Text Input 4",
+              "children" : [ {
+                "type" : "TextCustomization",
+                "name" : "",
+                "label" : "Text 4",
+                "inputValue" : ""
+              } ],
+              "dimension" : {
+                "width" : 366,
+                "height" : 276
+              },
+              "position" : {
+                "x" : 16,
+                "y" : 52
+              }
+            } ]
+          } ]
+        }, {
+          "type" : "OptionCustomization",
+          "name" : "Option Dropdown 1",
+          "label" : "Add more signs?",
+          "optionSelection" : {
+            "name" : "No thanks (2 signs, $13.48/ea)",
+            "label" : "No thanks (2 signs, $13.48/ea)",
+            "additionalCost" : {
+              "amount" : 0
+            },
+            "thumbnailImage" : {
+              "imageUrl" : "https://m.media-amazon.com/images/S/gestalt-seller-images-prod-us-east-1/ATVPDKIKX0DER/A1CIC4I1BRMOQY/e5d96fd8-a893-4844-b1b8-2a873f485cff.jpg",
+              "dimension" : {
+                "width" : 1440,
+                "height" : 1440
+              }
+            }
+          },
+          "displayValue" : "No thanks (2 signs, $13.48/ea)"
+        }, {
+          "type" : "TextCustomization",
+          "name" : "Data 1",
+          "label" : "Leave a message to us.",
+          "inputValue" : "Please make writing as large as possible and straight thank you "
+        } ]
+      } ],
+      "baseImage" : {
+        "imageUrl" : "https://m.media-amazon.com/images/S/gestalt-seller-images-prod-us-east-1/ATVPDKIKX0DER/A1CIC4I1BRMOQY/ba620fc3-3094-4ead-8b7a-a192c0f6afd6.png",
+        "dimension" : {
+          "width" : 400,
+          "height" : 400
+        }
+      },
+      "snapshot" : {
+        "imageName" : "4269dbe2-99ce-4f21-c096-729e09fa539e.jpg",
+        "dimension" : {
+          "width" : 400,
+          "height" : 400
+        }
+      },
+      "svg" : "370f3b0a-254c-9e72-16ab-cca29a88f635.svg"
+    } ]
+  },
+  "version3.0" : {
+    "customizationInfo" : {
+      "surfaces" : [ {
+        "name" : "Surface 1",
+        "areas" : [ {
+          "customizationType" : "ImagePrinting",
+          "Dimensions" : {
+            "width" : 367,
+            "height" : 278
+          },
+          "Position" : {
+            "x" : 16,
+            "y" : 52
+          },
+          "name" : "Image 1",
+          "svgImage" : "370f3b0a-254c-9e72-16ab-cca29a88f635.svg"
+        }, {
+          "customizationType" : "ImagePrinting",
+          "Dimensions" : {
+            "width" : 367,
+            "height" : 275
+          },
+          "Position" : {
+            "x" : 16,
+            "y" : 52
+          },
+          "name" : "Image 2",
+          "svgImage" : "370f3b0a-254c-9e72-16ab-cca29a88f635.svg"
+        }, {
+          "customizationType" : "ImagePrinting",
+          "Dimensions" : {
+            "width" : 367,
+            "height" : 278
+          },
+          "Position" : {
+            "x" : 16,
+            "y" : 51
+          },
+          "name" : "Image 3",
+          "svgImage" : "370f3b0a-254c-9e72-16ab-cca29a88f635.svg"
+        }, {
+          "customizationType" : "ImagePrinting",
+          "Dimensions" : {
+            "width" : 368,
+            "height" : 276
+          },
+          "Position" : {
+            "x" : 16,
+            "y" : 50
+          },
+          "name" : "Image 4",
+          "svgImage" : "370f3b0a-254c-9e72-16ab-cca29a88f635.svg"
+        }, {
+          "customizationType" : "ImagePrinting",
+          "Dimensions" : {
+            "width" : 367,
+            "height" : 277
+          },
+          "Position" : {
+            "x" : 17,
+            "y" : 50
+          },
+          "name" : "Image 5",
+          "svgImage" : "370f3b0a-254c-9e72-16ab-cca29a88f635.svg"
+        }, {
+          "customizationType" : "ImagePrinting",
+          "Dimensions" : {
+            "width" : 365,
+            "height" : 275
+          },
+          "Position" : {
+            "x" : 17,
+            "y" : 51
+          },
+          "name" : "Text Input 1",
+          "svgImage" : "370f3b0a-254c-9e72-16ab-cca29a88f635.svg"
+        }, {
+          "customizationType" : "ImagePrinting",
+          "Dimensions" : {
+            "width" : 364,
+            "height" : 275
+          },
+          "Position" : {
+            "x" : 18,
+            "y" : 53
+          },
+          "name" : "Text Input 2",
+          "svgImage" : "370f3b0a-254c-9e72-16ab-cca29a88f635.svg"
+        }, {
+          "customizationType" : "ImagePrinting",
+          "Dimensions" : {
+            "width" : 366,
+            "height" : 274
+          },
+          "Position" : {
+            "x" : 14,
+            "y" : 52
+          },
+          "name" : "Text Input 3",
+          "svgImage" : "370f3b0a-254c-9e72-16ab-cca29a88f635.svg"
+        }, {
+          "customizationType" : "TextPrinting",
+          "colorName" : "Black",
+          "fill" : "#000000",
+          "fontFamily" : "Roboto",
+          "Dimensions" : {
+            "width" : 366,
+            "height" : 276
+          },
+          "Position" : {
+            "x" : 16,
+            "y" : 52
+          },
+          "name" : "Text Input 4",
+          "label" : "Text 4",
+          "text" : ""
+        }, {
+          "customizationType" : "Options",
+          "name" : "Option Dropdown 1",
+          "label" : "Add more signs?",
+          "optionValue" : "No thanks (2 signs, $13.48/ea)",
+          "priceDelta" : {
+            "value" : 0.0
+          },
+          "optionImage" : ""
+        }, {
+          "customizationType" : "TextPrinting",
+          "name" : "Data 1",
+          "label" : "Leave a message to us.",
+          "text" : "Please make writing as large as possible and straight thank you "
+        } ]
+      } ]
+    }
+  }
+}

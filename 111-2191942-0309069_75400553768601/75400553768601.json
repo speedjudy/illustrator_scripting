@@ -1,0 +1,302 @@
+{
+  "orderId" : "111-2191942-0309069",
+  "orderItemId" : "75400553768601",
+  "legacyOrderItemId" : null,
+  "merchantId" : "A1CIC4I1BRMOQY",
+  "marketplaceId" : "ATVPDKIKX0DER",
+  "asin" : "B0BCP337TV",
+  "title" : "Two Pack Custom + Personalized 18x24\" Horizontal Yard Sign (Outdoor, Weatherproof Corrugated Plastic) Metal Stake Included, by Legit Fast Printing",
+  "quantity" : 1,
+  "customizationData" : {
+    "type" : "PageContainerCustomization",
+    "children" : [ {
+      "type" : "PreviewContainerCustomization",
+      "name" : "Surface 1",
+      "label" : "Surface 1",
+      "children" : [ {
+        "type" : "FlatContainerCustomization",
+        "children" : [ {
+          "type" : "PlacementContainerCustomization",
+          "name" : "Image 1",
+          "label" : "Image 1",
+          "children" : [ {
+            "type" : "ImageCustomization",
+            "name" : "",
+            "label" : "Image",
+            "image" : {
+              "imageName" : "bcd06043-83f0-42e8-a34f-8aa7e6588401.png",
+              "buyerFilename" : "72BC51FD-DC38-45AA-A680-DF679E908E62.png"
+            }
+          } ],
+          "dimension" : {
+            "width" : 367,
+            "height" : 278
+          },
+          "position" : {
+            "x" : 16,
+            "y" : 52
+          },
+          "buyerPlacement" : {
+            "position" : {
+              "x" : 7.483502702702822,
+              "y" : 53.18665540540553
+            },
+            "dimension" : {
+              "width" : 1920,
+              "height" : 1080
+            },
+            "scale" : {
+              "scaleX" : 0.22995453828828818,
+              "scaleY" : 0.22995453828828818
+            },
+            "angleOfRotation" : 0
+          }
+        }, {
+          "type" : "ContainerCustomization",
+          "name" : "Text 1",
+          "label" : "Text 1",
+          "children" : [ {
+            "type" : "FontCustomization",
+            "name" : "",
+            "label" : "Text 1",
+            "fontSelection" : {
+              "family" : "Lato"
+            }
+          }, {
+            "type" : "ColorCustomization",
+            "name" : "",
+            "label" : "Text Colors",
+            "colorSelection" : {
+              "name" : "Black",
+              "value" : "#000000",
+              "colorModel" : "rgb"
+            }
+          }, {
+            "type" : "ContainerCustomization",
+            "children" : [ {
+              "type" : "PlacementContainerCustomization",
+              "name" : "Text Input 1",
+              "label" : "Text Input 1",
+              "children" : [ {
+                "type" : "TextCustomization",
+                "name" : "",
+                "label" : "Text 1",
+                "inputValue" : "706-957-7110"
+              } ],
+              "dimension" : {
+                "width" : 365,
+                "height" : 275
+              },
+              "position" : {
+                "x" : 17,
+                "y" : 51
+              },
+              "buyerPlacement" : {
+                "position" : {
+                  "x" : 127.92938042881686,
+                  "y" : 301.2598087603723
+                },
+                "dimension" : {
+                  "width" : 1564.3491917247916,
+                  "height" : 272.20736434108517
+                },
+                "scale" : {
+                  "scaleX" : 0.090554627981187,
+                  "scaleY" : 0.090554627981187
+                },
+                "angleOfRotation" : 0
+              }
+            }, {
+              "type" : "PlacementContainerCustomization",
+              "name" : "Text Input 2",
+              "label" : "Text Input 2",
+              "children" : [ {
+                "type" : "TextCustomization",
+                "name" : "",
+                "label" : "Text 2",
+                "inputValue" : ""
+              } ],
+              "dimension" : {
+                "width" : 364,
+                "height" : 275
+              },
+              "position" : {
+                "x" : 18,
+                "y" : 53
+              }
+            }, {
+              "type" : "PlacementContainerCustomization",
+              "name" : "Text Input 3",
+              "label" : "Text Input 3",
+              "children" : [ {
+                "type" : "TextCustomization",
+                "name" : "",
+                "label" : "Text 3",
+                "inputValue" : ""
+              } ],
+              "dimension" : {
+                "width" : 366,
+                "height" : 274
+              },
+              "position" : {
+                "x" : 14,
+                "y" : 52
+              }
+            }, {
+              "type" : "PlacementContainerCustomization",
+              "name" : "Text Input 4",
+              "label" : "Text Input 4",
+              "children" : [ {
+                "type" : "TextCustomization",
+                "name" : "",
+                "label" : "Text 4",
+                "inputValue" : ""
+              } ],
+              "dimension" : {
+                "width" : 366,
+                "height" : 276
+              },
+              "position" : {
+                "x" : 16,
+                "y" : 52
+              }
+            } ]
+          } ]
+        }, {
+          "type" : "OptionCustomization",
+          "name" : "Option Dropdown 1",
+          "label" : "Add more signs?",
+          "optionSelection" : {
+            "name" : "3 signs",
+            "label" : "3 signs",
+            "additionalCost" : {
+              "amount" : 11.55
+            },
+            "thumbnailImage" : {
+              "imageUrl" : "https://m.media-amazon.com/images/S/gestalt-seller-images-prod-us-east-1/ATVPDKIKX0DER/A1CIC4I1BRMOQY/12922693-c2e0-4af2-9f61-73688ef5cd9b.jpg",
+              "dimension" : {
+                "width" : 1440,
+                "height" : 1440
+              }
+            }
+          },
+          "displayValue" : "3 signs"
+        }, {
+          "type" : "TextCustomization",
+          "name" : "Data 1",
+          "label" : "Leave a message to us.",
+          "inputValue" : ""
+        } ]
+      } ],
+      "baseImage" : {
+        "imageUrl" : "https://m.media-amazon.com/images/S/gestalt-seller-images-prod-us-east-1/ATVPDKIKX0DER/A1CIC4I1BRMOQY/ba620fc3-3094-4ead-8b7a-a192c0f6afd6.png",
+        "dimension" : {
+          "width" : 400,
+          "height" : 400
+        }
+      },
+      "snapshot" : {
+        "imageName" : "99818e5f-1a40-d133-a8f8-72b11ad90875.jpg",
+        "dimension" : {
+          "width" : 400,
+          "height" : 400
+        }
+      },
+      "svg" : "2e9a7164-fa79-7862-80fc-9aef9a4c9c74.svg"
+    } ]
+  },
+  "version3.0" : {
+    "customizationInfo" : {
+      "surfaces" : [ {
+        "name" : "Surface 1",
+        "areas" : [ {
+          "customizationType" : "ImagePrinting",
+          "Dimensions" : {
+            "width" : 367,
+            "height" : 278
+          },
+          "Position" : {
+            "x" : 16,
+            "y" : 52
+          },
+          "name" : "Image 1",
+          "svgImage" : "2e9a7164-fa79-7862-80fc-9aef9a4c9c74.svg"
+        }, {
+          "customizationType" : "ImagePrinting",
+          "Dimensions" : {
+            "width" : 365,
+            "height" : 275
+          },
+          "Position" : {
+            "x" : 17,
+            "y" : 51
+          },
+          "name" : "Text Input 1",
+          "svgImage" : "2e9a7164-fa79-7862-80fc-9aef9a4c9c74.svg"
+        }, {
+          "customizationType" : "TextPrinting",
+          "colorName" : "Black",
+          "fill" : "#000000",
+          "fontFamily" : "Lato",
+          "Dimensions" : {
+            "width" : 364,
+            "height" : 275
+          },
+          "Position" : {
+            "x" : 18,
+            "y" : 53
+          },
+          "name" : "Text Input 2",
+          "label" : "Text 2",
+          "text" : ""
+        }, {
+          "customizationType" : "TextPrinting",
+          "colorName" : "Black",
+          "fill" : "#000000",
+          "fontFamily" : "Lato",
+          "Dimensions" : {
+            "width" : 366,
+            "height" : 274
+          },
+          "Position" : {
+            "x" : 14,
+            "y" : 52
+          },
+          "name" : "Text Input 3",
+          "label" : "Text 3",
+          "text" : ""
+        }, {
+          "customizationType" : "TextPrinting",
+          "colorName" : "Black",
+          "fill" : "#000000",
+          "fontFamily" : "Lato",
+          "Dimensions" : {
+            "width" : 366,
+            "height" : 276
+          },
+          "Position" : {
+            "x" : 16,
+            "y" : 52
+          },
+          "name" : "Text Input 4",
+          "label" : "Text 4",
+          "text" : ""
+        }, {
+          "customizationType" : "Options",
+          "name" : "Option Dropdown 1",
+          "label" : "Add more signs?",
+          "optionValue" : "3 signs",
+          "priceDelta" : {
+            "value" : 11.55
+          },
+          "optionImage" : ""
+        }, {
+          "customizationType" : "TextPrinting",
+          "name" : "Data 1",
+          "label" : "Leave a message to us.",
+          "text" : ""
+        } ]
+      } ]
+    }
+  }
+}
