@@ -1,76 +1,98 @@
 var doc = app.activeDocument;
-var test = 1;
 var Iheight = 0;
-switch (test) {
-    case 1:
-        var directory_name = Folder.desktop + '/111-2191942-0309069_75400553768601';
-        var svgFile = File(directory_name + '/2e9a7164-fa79-7862-80fc-9aef9a4c9c74.svg');
-        var fileObj = new File(directory_name + '/75400553768601.xml');
-        break;
-    case 2:
-        var directory_name = Folder.desktop + '/114-7099060-3188201_75645712750761';
-        var svgFile = File(directory_name + '/eabf8dd5-169f-0eb1-abc3-61168da9f4c9.svg');
-        var fileObj = new File(directory_name + '/75645712750761.xml');
-        break;
-    case 3:
-        var directory_name = Folder.desktop + '/111-3122885-5033061_75633766422281';
-        var svgFile = File(directory_name + '/dfe5b4f0-7604-71dd-d78a-2b615f1a6c90.svg');
-        var fileObj = new File(directory_name + '/75633766422281.xml');
-        break;
-    case 4:
-        var directory_name = Folder.desktop + '/114-5247093-7601019_75638978755921';
-        var svgFile = File(directory_name + '/370f3b0a-254c-9e72-16ab-cca29a88f635.svg');
-        var fileObj = new File(directory_name + '/75638978755921.xml');
-        break;
-    case 5:
-        var directory_name = Folder.desktop + '/114-6454505-5868201_75631083656961';
-        var svgFile = File(directory_name + '/bac99d6c-1559-3466-d97a-06ed25d7e3ff.svg');
-        var fileObj = new File(directory_name + '/75631083656961.xml');
-        break;
+var topGroup;
+
+var open_file = File.openDialog('', ["Zip:*.zip;"]);
+open_file.open("r");
+open_file.close();
+var zip_file_name = open_file.name.split(".");
+var xml_file_name = zip_file_name[0].split("_");
+
+var svg_file_name = '';
+
+
+var directory_name = Folder.desktop + '/' + zip_file_name[0];
+
+var f = Folder(directory_name);
+
+var allFiles = f.getFiles();
+var svgFile;
+var svg_file_size = 0;;
+var thisFile;
+for (var i = 0; i < allFiles.length; i++) {
+    thisFile = allFiles[i];
+    if (thisFile instanceof File) {
+        if (thisFile.name.indexOf('.') > -1) {
+            var temp_file = thisFile.name.split(".");
+            if (temp_file[1] == 'svg') {
+                var tempSvgFile = File(directory_name + '/' + thisFile.name);
+                if (svg_file_size < tempSvgFile.length) {
+                    svgFile = tempSvgFile;
+                    svg_file_size = tempSvgFile.length;
+                    svg_file_name = thisFile.name;
+                }
+            }
+        }
+    }
 }
 
-fileObj.open("r:");
-var xmlString = new XML(fileObj.read());
+while (svg_file_name == '') {
+    if (svg_file_name != '') {
+        first();
+    }
+}
+if (svg_file_name != '') {
+    first();
+}
+function first() {
+    if (svg_file_name == "") {
+        alert("Please extract the zip file on Desktop.");
+    }
 
-doc.groupItems.createFromFile(svgFile);
+    var fileObj = new File(directory_name + '/' + xml_file_name[1] + '.xml');
 
-var layers = app.activeDocument.layers;
-// myDoc.layers.getByName(CLOSED_layer).visible = false;
+    fileObj.open("r:");
+    var xmlString = new XML(fileObj.read());
 
+    doc.groupItems.createFromFile(svgFile);
 
-
-var topGroup = layers.getByName('Layer 1').groupItems[0];
-topGroup.top = 0;
-topGroup.left = 0;
-setSizeGroup();
+    var layers = app.activeDocument.layers;
+    // myDoc.layers.getByName(CLOSED_layer).visible = false;
 
 
-for (var i = 0; i < topGroup.groupItems.length; i++) {
-    var component = main(topGroup.groupItems[i]);
-    if (component) {
-        for (var j = 0; j < component.length; j++) {
-            var component2 = main(component[j]);
-            if (component2) {
-                for (var k = 0; k < component2.length; k++) {
-                    var component3 = main(component2[k]);
-                    if (component3) {
-                        for (var l = 0; l < component3.length; l++) {
-                            var component4 = main(component3[l]);
-                            if (component4) {
-                                for (var n = 0; n < component4.length; n++) {
-                                    var component5 = main(component4[n]);
-                                    if (component5) {
-                                        for (var m = 0; m < component5.length; m++) {
-                                            var component6 = main(component5[m]);
-                                            if (component6) {
-                                                for (var o = 0; o < component6.length; o++) {
-                                                    var component7 = main(component6[o]);
-                                                    if (component7) {
-                                                        for (var p = 0; p < component7.length; p++) {
-                                                            var component8 = main(component7[p]);
-                                                            if (component8) {
-                                                                for (var q = 0; q < component8.length; q++) {
-                                                                    var component9 = main(component8[q]);
+    topGroup = layers.getByName('Layer 1').groupItems[0];
+    topGroup.top = 0;
+    topGroup.left = 0;
+    setSizeGroup();
+
+
+    for (var i = 0; i < topGroup.groupItems.length; i++) {
+        var component = main(topGroup.groupItems[i]);
+        if (component) {
+            for (var j = 0; j < component.length; j++) {
+                var component2 = main(component[j]);
+                if (component2) {
+                    for (var k = 0; k < component2.length; k++) {
+                        var component3 = main(component2[k]);
+                        if (component3) {
+                            for (var l = 0; l < component3.length; l++) {
+                                var component4 = main(component3[l]);
+                                if (component4) {
+                                    for (var n = 0; n < component4.length; n++) {
+                                        var component5 = main(component4[n]);
+                                        if (component5) {
+                                            for (var m = 0; m < component5.length; m++) {
+                                                var component6 = main(component5[m]);
+                                                if (component6) {
+                                                    for (var o = 0; o < component6.length; o++) {
+                                                        var component7 = main(component6[o]);
+                                                        if (component7) {
+                                                            for (var p = 0; p < component7.length; p++) {
+                                                                var component8 = main(component7[p]);
+                                                                if (component8) {
+                                                                    for (var q = 0; q < component8.length; q++) {
+                                                                        var component9 = main(component8[q]);
+                                                                    }
                                                                 }
                                                             }
                                                         }
@@ -88,7 +110,10 @@ for (var i = 0; i < topGroup.groupItems.length; i++) {
         }
     }
 
+    var orderId = xmlString.orderId.split("-");
+    var exportFileName = Folder.desktop + '/result/' + orderId[orderId.length - 1] + ".png";
 
+    // exportFileToPNG24(exportFileName);
 }
 
 function main(group) {
@@ -144,11 +169,6 @@ function textResize(group) {
         }
     }
 }
-
-var orderId = xmlString.orderId.split("-");
-var exportFileName = directory_name + '/' + orderId[orderId.length - 1] + ".png";
-
-exportFileToPNG24(exportFileName);
 
 function exportFileToPNG24(dest) {
     if (app.documents.length > 0) {
