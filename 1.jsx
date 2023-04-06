@@ -11,7 +11,8 @@ var xml_file_name = zip_file_name[0].split("_");
 var svg_file_name = '';
 
 
-var directory_name = Folder.desktop + '/' + zip_file_name[0];
+var directory_name = '~/Downloads/' + zip_file_name[0];
+// var directory_name = Folder.desktop + '/' + zip_file_name[0];
 
 var f = Folder(directory_name);
 
@@ -19,79 +20,89 @@ var allFiles = f.getFiles();
 var svgFile;
 var svg_file_size = 0;;
 var thisFile;
+
+var imgFile;
+var img_file_size = 0;
+var img_file_name = '';
 for (var i = 0; i < allFiles.length; i++) {
     thisFile = allFiles[i];
     if (thisFile instanceof File) {
         if (thisFile.name.indexOf('.') > -1) {
             var temp_file = thisFile.name.split(".");
+            var tempFile = File(directory_name + '/' + thisFile.name);
             if (temp_file[1] == 'svg') {
-                var tempSvgFile = File(directory_name + '/' + thisFile.name);
-                if (svg_file_size < tempSvgFile.length) {
-                    svgFile = tempSvgFile;
-                    svg_file_size = tempSvgFile.length;
+                if (svg_file_size < tempFile.length) {
+                    svgFile = tempFile;
+                    svg_file_size = tempFile.length;
                     svg_file_name = thisFile.name;
+                }
+            }
+            if (temp_file[1].toLowerCase() == 'jpg' || temp_file[1].toLowerCase() == 'jpeg') {
+                if (tempFile.length < 100000 && img_file_size < tempFile.length) {
+                    imgFile = tempFile;
+                    img_file_size = tempFile.length;
+                    img_file_name = thisFile.name;
                 }
             }
         }
     }
 }
 
-while (svg_file_name == '') {
-    if (svg_file_name != '') {
+while (svg_file_name == '' && img_file_name == '') {
+    if (svg_file_name != '' && img_file_name != '') {
         first();
     }
 }
-if (svg_file_name != '') {
+if (svg_file_name != '' && img_file_name != '') {
     first();
 }
 function first() {
     if (svg_file_name == "") {
         alert("Please extract the zip file on Desktop.");
     }
-
     var fileObj = new File(directory_name + '/' + xml_file_name[1] + '.xml');
 
     fileObj.open("r:");
     var xmlString = new XML(fileObj.read());
+    // if (svg_file_name == "2e9a7164-fa79-7862-80fc-9aef9a4c9c74.svg") {
 
-    doc.groupItems.createFromFile(svgFile);
+        doc.groupItems.createFromFile(svgFile);
 
-    var layers = app.activeDocument.layers;
-    // myDoc.layers.getByName(CLOSED_layer).visible = false;
+        var layers = app.activeDocument.layers;
 
-
-    topGroup = layers.getByName('Layer 1').groupItems[0];
-    topGroup.top = 0;
-    topGroup.left = 0;
-    setSizeGroup();
+        topGroup = layers.getByName('Layer 1').groupItems[0];
+        topGroup.top = 0;
+        topGroup.left = 0;
+        setSizeGroup();
 
 
-    for (var i = 0; i < topGroup.groupItems.length; i++) {
-        var component = main(topGroup.groupItems[i]);
-        if (component) {
-            for (var j = 0; j < component.length; j++) {
-                var component2 = main(component[j]);
-                if (component2) {
-                    for (var k = 0; k < component2.length; k++) {
-                        var component3 = main(component2[k]);
-                        if (component3) {
-                            for (var l = 0; l < component3.length; l++) {
-                                var component4 = main(component3[l]);
-                                if (component4) {
-                                    for (var n = 0; n < component4.length; n++) {
-                                        var component5 = main(component4[n]);
-                                        if (component5) {
-                                            for (var m = 0; m < component5.length; m++) {
-                                                var component6 = main(component5[m]);
-                                                if (component6) {
-                                                    for (var o = 0; o < component6.length; o++) {
-                                                        var component7 = main(component6[o]);
-                                                        if (component7) {
-                                                            for (var p = 0; p < component7.length; p++) {
-                                                                var component8 = main(component7[p]);
-                                                                if (component8) {
-                                                                    for (var q = 0; q < component8.length; q++) {
-                                                                        var component9 = main(component8[q]);
+        for (var i = 0; i < topGroup.groupItems.length; i++) {
+            var component = main(topGroup.groupItems[i]);
+            if (component) {
+                for (var j = 0; j < component.length; j++) {
+                    var component2 = main(component[j]);
+                    if (component2) {
+                        for (var k = 0; k < component2.length; k++) {
+                            var component3 = main(component2[k]);
+                            if (component3) {
+                                for (var l = 0; l < component3.length; l++) {
+                                    var component4 = main(component3[l]);
+                                    if (component4) {
+                                        for (var n = 0; n < component4.length; n++) {
+                                            var component5 = main(component4[n]);
+                                            if (component5) {
+                                                for (var m = 0; m < component5.length; m++) {
+                                                    var component6 = main(component5[m]);
+                                                    if (component6) {
+                                                        for (var o = 0; o < component6.length; o++) {
+                                                            var component7 = main(component6[o]);
+                                                            if (component7) {
+                                                                for (var p = 0; p < component7.length; p++) {
+                                                                    var component8 = main(component7[p]);
+                                                                    if (component8) {
+                                                                        for (var q = 0; q < component8.length; q++) {
+                                                                            var component9 = main(component8[q]);
+                                                                        }
                                                                     }
                                                                 }
                                                             }
@@ -108,12 +119,21 @@ function first() {
                 }
             }
         }
-    }
+        var orderId = xmlString.orderId.split("-");
+        var exportFileName = '~/Downloads' + '/result/' + orderId[orderId.length - 1] + ".png";
+        exportFileToPNG24(exportFileName);
+    // } else {
+        // var itemToPlace = doc.placedItems.add();
 
-    var orderId = xmlString.orderId.split("-");
-    var exportFileName = Folder.desktop + '/result/' + orderId[orderId.length - 1] + ".png";
-
-    // exportFileToPNG24(exportFileName);
+        // itemToPlace.file = imgFile;
+        // itemToPlace.top = 0;
+        // itemToPlace.left = 0;
+        // itemToPlace.width = 2400;
+        // itemToPlace.height = 1800;
+        // var orderId = xmlString.orderId.split("-");
+        // var exportFileName = Folder.desktop + '/result/' + orderId[orderId.length - 1] + ".png";
+        // exportFileToPNG24(exportFileName);
+    // }
 }
 
 function main(group) {
